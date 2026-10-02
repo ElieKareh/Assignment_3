@@ -1,0 +1,26 @@
+A) This project should contiain:
+	assets/icons/html_icon.png
+	assets/images/image.jpg
+	index.html
+	products.html
+	
+B) inside index.html, here are the instructions:
+
+	1- Internal Navigation will scroll to about section
+	2- Next Page in Same Website will redirect to products page
+	3- External link (MDN): https://developer.mozilla.org/
+	4- Email Link will redirect to email app and send an email to someone@example.com
+	5- Telephone Link will redirect to phone app and call +961xy-abcdef
+	6- Download Image Link will download the building image
+	7- In form section, the Academic Level (Select): contains:
+		* Undergraduate
+		* Postgraduate
+		* Doctorate
+	8- Concerning the Prefered Browser(Input List) found in image_5.png, it must be
+	an input of type text but with datalist with the following options:
+		* brave
+		* chrome
+		* firefox
+
+
+C) find the run of the products.html in image_6.png
