@@ -94,7 +94,79 @@ function calculateGrade (score) {
             <dt>Browser</dt>
             <dd>A software application used to access and view websites.</dd>
         </dl>
-<br><br>
+        
+        <h2>Table With Colspan & Rowspan</h2>
+        <table border="1">
+        <caption>Student Academic Results Summary</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Student Name</th>
+                <th colspan="2">Scores</th>
+                <th rowspan="2">Final Grade</th>
+            </tr>
+            <tr>
+                <th>Assignments</th>
+                <th>Exams</th>
+            </tr>
+        </thead>
+            <tbody>
+                <tr>
+                    <td>Jane Doe</td>
+                    <td>95</td>
+                    <td>92</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>John Smith</td>
+                    <td>88</td>
+                    <td>84</td>
+                    <td>B</td>
+                    </tr>
+        </tbody>
+        </table>
+        <hr>
+        
+        <h2>Interactive Form Controls</h2>
+        <form>
+        <!-- Full Name -->
+        <div>
+        <label for="fullname">Full Name (Text Input):</label><br>
+        <input type="text" id="fullname" name="fullname" placeholder="John Doe">
+        </div>
+        <br>
+
+        <!-- Password -->
+        <div>
+        <label for="password">Password (Password Input):</label><br>
+        <input type="password" id="password" name="password">
+        </div>
+        <br>
+
+        <!-- Email Address -->
+        <div>
+        <label for="email">Email Address (Email Input):</label><br>
+        <input type="email" id="email" name="email" placeholder="student@example.com">
+        </div>
+        <br>
+
+        <!-- Age -->
+        <div>
+        <label for="age">Age (Number Input):</label><br>
+        <input type="number" id="age" name="age" value="20">
+        </div>
+        <br>
+
+        <!-- Gender -->
+        <div>
+        <label>Gender (Radio Input):</label><br>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        </div>
+    </form>
+        
+        <br><br>
         <form>
         <!-- Academic Level Selection -->
             <div>
