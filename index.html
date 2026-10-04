@@ -165,20 +165,66 @@ function calculateGrade (score) {
         <label for="female">Female</label>
         </div>
     </form>
-        
+    <br>
+       <div>
+  <!-- Topics (Checkbox Input) -->
+  <label>Topics (Checkbox Input):</label><br>
+  <input type="checkbox" id="webdev" name="topics" value="webdev" checked>
+  <label for="webdev">Web Development</label><br>
+  <input type="checkbox" id="databases" name="topics" value="databases">
+  <label for="databases">Databases</label>
+</div>
+
+<br>
+
+<div>
+  <!-- Preferred Browser (Input List) -->
+  <label for="browser">Preferred Browser (Input List):</label><br>
+  <input list="browsers" id="browser" name="browser">
+  
+  <datalist id="browsers">
+    <option value="Brave">
+    <option value="Chrome">
+    <option value="Firefox">
+  </datalist>
+</div> 
         <br><br>
-        <form>
-        <!-- Academic Level Selection -->
-            <div>
-                <label for="academic-level">Academic Level (Select):</label>
-                <select id="academic-level" name="academic_level" required>
-                <option value="" disabled selected>-- Select an Option --</option>
-                <option value="undergraduate">Undergraduate</option>
-                <option value="postgraduate">Postgraduate</option>
-                <option value="doctorate">Doctorate</option>
-            </select>
-            </div>
-            </form>
+        
+        <div>
+            <!-- Academic Level Selection -->
+  <label for="academic-level">Academic Level (Select):</label><br>
+  <select id="academic-level" name="academic_level">
+    <option value="undergraduate" selected>Undergraduate</option>
+    <option value="postgraduate">Postgraduate</option>
+    <option value="doctorate">Doctorate</option>
+  </select>
+</div>
+<br>
+     <div>
+  <!-- Feedback Textarea -->
+  <label for="feedback">Feedback (Textarea):</label><br>
+  <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Enter feedback here..."></textarea>
+</div>
+<br>
+
+<!-- Form Buttons -->
+<div>
+  <input type="submit" value="Submit Form">
+  <input type="reset" value="Reset Form">
+</div>
+
+<!-- Horizontal Line Divider -->
+<hr>
+
+<!-- Footer Section -->
+<footer>
+  <p>&copy; 2026 HTML Assignment Solution. All Rights Reserved.</p>
+  <a href="#top">Back to Top</a>
+</footer>   
+        
+        
+        
+        
         
         <br><br><br><br><br><br><br><br><br><br><br>
         
